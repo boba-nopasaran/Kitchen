@@ -7,6 +7,9 @@ find origin/ -maxdepth 1 -regex '.*\(.img\|.ext4\)' -type f -exec ls {} \;
 read imagename
 
 mkdir proj/$imagename.mnt
+sudo umount proj/$imagename.mnt
+sudo umount proj/$imagename.raw
+sudo umount proj/$imagename.mnt
 sudo umount proj/$imagename.raw
 rm proj/$imagename.raw
 

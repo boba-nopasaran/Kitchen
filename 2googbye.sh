@@ -52,6 +52,8 @@ REMS=(\
 "tts/lang_pico" \
 "vendor/operator/app/KMPlayer-v2" \
 "vendor/operator/app/YandexNavi" \
+"vendor/app/V6FeiXingEnLauncher_4G" \
+"vendor/app/FeiXingV8ENLauncher4G" \
 )
 
 for path in "${DIRS[@]}"; do
